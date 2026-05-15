@@ -8,7 +8,7 @@ import Footer from "@/sections/Footer";
 
 export default function Home() {
   return (
-    <main>
+    <main className="overflow-hidden">
       <Navbar />
       <Hero />
       <About />
