@@ -24,8 +24,7 @@ const Navbar = () => {
         </ul>
 
         {/* Desktop Button */}
-        <button className="hidden md:block bg-black text-white px-5 py-2 rounded-full hover:bg-gray-800 transition">
-          Apply Now
+        <button className="hidden md:block bg-black text-white px-5 py-2 rounded-full hover:bg-gray-800 hover:scale-105 transition">          Apply Now
         </button>
 
         {/* Mobile Menu Button */}

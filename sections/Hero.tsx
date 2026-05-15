@@ -30,12 +30,10 @@ const Hero = () => {
           {/* Buttons */}
           <div className="mt-10 flex flex-col sm:flex-row gap-4">
 
-            <button className="bg-black text-white px-8 py-4 rounded-full font-medium hover:bg-gray-800 transition">
-              Explore Programs
+            <button className="bg-black text-white px-8 py-4 rounded-full font-medium hover:bg-gray-800 hover:scale-105 transition">                Explore Programs
             </button>
 
-            <button className="border border-gray-300 px-8 py-4 rounded-full font-medium hover:bg-gray-100 transition">
-              Learn More
+            <button className="border border-gray-300 px-8 py-4 rounded-full font-medium hover:bg-gray-100 hover:scale-105 transition">              Learn More
             </button>
 
           </div>

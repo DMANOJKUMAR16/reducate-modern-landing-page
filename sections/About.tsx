@@ -1,8 +1,10 @@
+import FadeUp from "@/components/FadeUp";
 import { GraduationCap, Globe, Briefcase } from "lucide-react";
 
 const About = () => {
   return (
     <section className="py-24 bg-white">
+      <FadeUp>
 
       <div className="max-w-7xl mx-auto px-6">
 
@@ -86,6 +88,7 @@ const About = () => {
         </div>
 
       </div>
+      </FadeUp>
 
     </section>
   )

@@ -1,3 +1,4 @@
+import FadeUp from "@/components/FadeUp";
 import {
   Code2,
   BrainCircuit,
@@ -39,6 +40,7 @@ const programs = [
 const Programs = () => {
   return (
     <section className="py-24 bg-gray-50">
+      <FadeUp>
 
       <div className="max-w-7xl mx-auto px-6">
 
@@ -101,7 +103,7 @@ const Programs = () => {
         </div>
 
       </div>
-
+      </FadeUp>
     </section>
   );
 };

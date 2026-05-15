@@ -25,12 +25,10 @@ const CTA = () => {
         {/* Buttons */}
         <div className="mt-10 flex flex-col sm:flex-row justify-center gap-4">
 
-          <button className="bg-white text-black px-8 py-4 rounded-full font-semibold hover:bg-gray-200 transition">
-            Apply Now
+          <button className="bg-white text-black px-8 py-4 rounded-full font-semibold hover:bg-gray-200 hover:scale-105 transition">            Apply Now
           </button>
 
-          <button className="border border-gray-600 text-white px-8 py-4 rounded-full font-semibold hover:bg-white hover:text-black transition">
-            Explore Programs
+          <button className="border border-gray-600 text-white px-8 py-4 rounded-full font-semibold hover:bg-white hover:text-black hover:scale-105 transition">            Explore Programs
           </button>
 
         </div>
