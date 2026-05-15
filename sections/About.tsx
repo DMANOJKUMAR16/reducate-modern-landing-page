@@ -3,13 +3,13 @@ import { GraduationCap, Globe, Briefcase } from "lucide-react";
 
 const About = () => {
   return (
-    <section className="py-24 bg-white">
+    <section className="py-24 bg-white" id="about">
       <FadeUp>
 
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Heading */}
-        <div className="max-w-3xl">
+        <div className="max-w-3xl mx-auto text-center">
 
           <p className="text-blue-600 font-semibold mb-4">
             About Us

@@ -24,7 +24,7 @@ const testimonials = [
 
 const Testimonials = () => {
   return (
-    <section className="py-24 bg-gradient-to-br from-blue-50 via-white to-purple-50">
+    <section id="testimonials" className="py-24 bg-gradient-to-br from-blue-50 via-white to-purple-50">
       <FadeUp>
       <div className="max-w-7xl mx-auto px-6">
 

@@ -39,7 +39,7 @@ const programs = [
 
 const Programs = () => {
   return (
-    <section className="py-24 bg-gray-50">
+    <section id="programs" className="py-24 bg-gray-50">
       <FadeUp>
 
       <div className="max-w-7xl mx-auto px-6">
