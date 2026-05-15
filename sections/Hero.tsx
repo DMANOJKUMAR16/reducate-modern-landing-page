@@ -15,13 +15,13 @@ const Hero = () => {
             Future-Ready Education Platform
           </p>
 
-          <h1 className="text-5xl md:text-7xl font-bold leading-tight text-gray-900">
+          <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold leading-tight text-gray-900">
             Build Your
             <span className="text-blue-600"> Future </span>
             With Modern Learning
           </h1>
 
-          <p className="mt-6 text-lg text-gray-600 max-w-xl leading-relaxed">
+          <p className="mt-6 text-base md:text-lg text-gray-600 max-w-xl leading-relaxed">
             Discover industry-focused programs, expert mentors, and
             practical learning experiences designed to prepare students
             for tomorrow’s opportunities.
@@ -73,7 +73,7 @@ const Hero = () => {
                   Learn Without Limits
                 </h2>
 
-                <p className="text-lg text-blue-100">
+                <p className="text-base md:text-lg text-blue-100">
                   Interactive learning experiences designed for modern students.
                 </p>
 
